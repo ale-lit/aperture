@@ -313,6 +313,71 @@
   border-radius: 50%;
 }
 
+.team {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.team__item {
+  margin: 15px 0;
+}
+.team__item-block {
+  background: url('../img/about/wood_pattern.jpg');
+  padding: 25px 25px 75px;
+  height: 100%;
+  position: relative;
+}
+.team__photo {
+  width: 90%;
+  margin: 5px 0 25px;
+}
+.team__title {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 700;
+}
+.team__job {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #808080;
+}
+.team__description {
+  text-align: left;
+}
+.team__socials {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin-bottom: 20px;
+}
+.team__socials-item {
+  display: inline-block;
+}
+.team__socials-link {
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all .15s ease-in-out;
+  color: #fff;
+  background: #333;
+  border-radius: 50%;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+}
+.team__socials-link:hover {
+  background: #295361;
+  color: #fbfbfb;
+}
+
+
 .footer {
   margin-top: -20px;
   color: #707070;
@@ -430,12 +495,25 @@
   background-position-y: -56px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1399px) {
+  .team__socials-link {
+    margin: 0 6px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   .content__title {
     font-size: 40px;
   }
   .container__title {
     font-size: 16px;
+  }
+  .team__socials-link {
+    margin: 0 4px;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 992px) {
