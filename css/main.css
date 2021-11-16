@@ -286,7 +286,32 @@
 }
 
 /* ABOUT */
-
+.mission {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.mission__item {
+  padding: 0;
+  display: flex;
+}
+.mission__title {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.mission__icon {
+  background: #000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 25px 0 10px;
+  font-size: 23px;
+  text-align: center;
+  border-radius: 50%;
+}
 
 .footer {
   margin-top: -20px;
